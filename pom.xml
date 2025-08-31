@@ -44,18 +44,18 @@
 		<dependency>
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-configuration</artifactId>
-			<version>4.9.4</version>
+			<version>${axon.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-server-connector</artifactId>
-			<version>4.9.4</version>
+			<version>${axon.version}</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.axonframework</groupId>
 			<artifactId>axon-test</artifactId>
-			<version>4.9.4</version>
+			<version>${axon.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
@@ -63,6 +63,16 @@
 			<artifactId>axon-spring-boot-starter</artifactId>
 			<version>${axon.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.38</version> <!-- Use the latest stable version -->
+			<scope>provided</scope>
+		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.projectlombok</groupId>-->
+<!--			<artifactId>lombok</artifactId>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
